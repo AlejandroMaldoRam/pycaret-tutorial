@@ -18,3 +18,11 @@ Repository containing some examples of pycaret library. The objetive is to be a 
     * Clustering
     * Time Series
 * It also has capabilities for experiment tracking (it can use MLFlow for that) and for deployment.
+
+## Deploying with PyCaret
+
+* PyCaret can help us to deploy models with Docker. 
+* Usamos el comando `create_api` y después `create_docker`.
+* Ejecutamos el contenedor con: `docker build .`. Asumimos que estamos en la misma carpeta.
+* Podemos revisar la imagen con `docker images -a`. Con esto podemos ver las imágenes que tenemos en nuestro sistema.
+* Ejecutamos el contenedor con `docker run `
